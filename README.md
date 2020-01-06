@@ -1,7 +1,7 @@
 # Recommending-Restaurants
 
 ### About
-This is project where I used **BeautifulSoup** to web scrape data from a post by [Timeout](https://www.timeout.com/newyork/restaurants/100-best-new-york-restaurants) regarding the 100 best restaurants in New York.
+This is a project where I used **BeautifulSoup**  to web scrape data from a post by [Timeout](https://www.timeout.com/newyork/restaurants/100-best-new-york-restaurants) regarding the 100 best restaurants in New York. 
 I web scraped throught the data and extracted 4 main features - 
 
 • Name of the restaurant
@@ -11,7 +11,6 @@ I web scraped throught the data and extracted 4 main features -
 • Location
 
 • Cuisine
-
 
 Eventually I used **cosine-similarity** for matching the features and recommending the restaurant to the user. I will be updating the repository for multiple web-pages by time-out to improve my model.
 
